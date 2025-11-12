@@ -3,21 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{C4274245-CD6B-417A-86DB-40F9CAF8BA76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{C4274245-CD6B-417A-86DB-40F9CAF8BA76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{F23C988E-DA19-4315-9010-9A5CD245EC69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{F23C988E-DA19-4315-9010-9A5CD245EC69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F40783ED-9E43-4AAE-ABFF-37006E821186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{F40783ED-9E43-4AAE-ABFF-37006E821186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{BAD9A5A1-CC75-4D11-AEAE-8296E377803F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{BAD9A5A1-CC75-4D11-AEAE-8296E377803F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C4274245-CD6B-417A-86DB-40F9CAF8BA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +33,8 @@ Global
 		{BAD9A5A1-CC75-4D11-AEAE-8296E377803F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAD9A5A1-CC75-4D11-AEAE-8296E377803F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAD9A5A1-CC75-4D11-AEAE-8296E377803F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
